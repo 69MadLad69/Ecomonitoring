@@ -541,8 +541,8 @@
     <AssociationLine Name="mainForm" Type="Ecomonitoring.Form1" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="22.75" Y="12.31" />
-        <Point X="22.75" Y="13.063" />
-        <Point X="18" Y="13.063" />
+        <Point X="22.75" Y="13.062" />
+        <Point X="18" Y="13.062" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
