@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ecomonitoring.Program">
+    <Position X="12" Y="12.25" Width="1.5" />
+    <AssociationLine Name="Form1" Type="Ecomonitoring.Form1">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.473" Y="0.077" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.Form1">
+    <Position X="15" Y="9.75" Width="3" />
+    <Members>
+      <Field Name="AddAllCRP" Hidden="true" />
+      <Field Name="AddCR" Hidden="true" />
+      <Field Name="AddNCR" Hidden="true" />
+      <Field Name="AddPollutantButton" Hidden="true" />
+      <Field Name="AddPollution" Hidden="true" />
+      <Field Name="AddSubstanceButton" Hidden="true" />
+      <Field Name="CarcinogenicRisks" Hidden="true" />
+      <Field Name="ChangeCR" Hidden="true" />
+      <Field Name="ChangeMinPayment" Hidden="true" />
+      <Field Name="ChangeNCR" Hidden="true" />
+      <Field Name="ChangePollutantButton" Hidden="true" />
+      <Field Name="ChangePollution" Hidden="true" />
+      <Field Name="ChangeSubstanceButton" Hidden="true" />
+      <Field Name="CompensationSumText" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="CRtable" Hidden="true" />
+      <Field Name="DelCR" Hidden="true" />
+      <Field Name="DeletePollutantButton" Hidden="true" />
+      <Field Name="DeletePollution" Hidden="true" />
+      <Field Name="DeleteSubstanceButton" Hidden="true" />
+      <Field Name="DelNCR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="EcomonTabs" Hidden="true" />
+      <Field Name="FindCR" Hidden="true" />
+      <Field Name="ID" Hidden="true" />
+      <Field Name="ID_Забруднення" Hidden="true" />
+      <Field Name="ID_Неканц_Ризика" Hidden="true" />
+      <Field Name="ID_Речовини" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="Kf" Hidden="true" />
+      <Field Name="Knas" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label16" Hidden="true" />
+      <Field Name="label17" Hidden="true" />
+      <Field Name="label18" Hidden="true" />
+      <Field Name="label19" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label20" Hidden="true" />
+      <Field Name="label21" Hidden="true" />
+      <Field Name="label22" Hidden="true" />
+      <Field Name="label23" Hidden="true" />
+      <Field Name="label24" Hidden="true" />
+      <Field Name="label25" Hidden="true" />
+      <Field Name="label26" Hidden="true" />
+      <Field Name="label27" Hidden="true" />
+      <Field Name="label28" Hidden="true" />
+      <Field Name="label29" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label30" Hidden="true" />
+      <Field Name="label31" Hidden="true" />
+      <Field Name="label32" Hidden="true" />
+      <Field Name="label33" Hidden="true" />
+      <Field Name="label34" Hidden="true" />
+      <Field Name="label35" Hidden="true" />
+      <Field Name="label36" Hidden="true" />
+      <Field Name="label37" Hidden="true" />
+      <Field Name="label38" Hidden="true" />
+      <Field Name="label39" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label40" Hidden="true" />
+      <Field Name="label41" Hidden="true" />
+      <Field Name="label42" Hidden="true" />
+      <Field Name="label43" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="MinPaymentAmmount" Hidden="true" />
+      <Field Name="NCRtable" Hidden="true" />
+      <Field Name="NonCarcinogenicRisk" Hidden="true" />
+      <Field Name="openFileDialog1" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel10" Hidden="true" />
+      <Field Name="panel11" Hidden="true" />
+      <Field Name="panel12" Hidden="true" />
+      <Field Name="panel13" Hidden="true" />
+      <Field Name="panel14" Hidden="true" />
+      <Field Name="panel15" Hidden="true" />
+      <Field Name="panel16" Hidden="true" />
+      <Field Name="panel17" Hidden="true" />
+      <Field Name="panel18" Hidden="true" />
+      <Field Name="panel19" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel20" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="panel7" Hidden="true" />
+      <Field Name="panel8" Hidden="true" />
+      <Field Name="panel9" Hidden="true" />
+      <Field Name="PaymentYear" Hidden="true" />
+      <Field Name="Pollutants" Hidden="true" />
+      <Field Name="PollutantSearch" Hidden="true" />
+      <Field Name="PollutantSearchType" Hidden="true" />
+      <Field Name="PollutantTable" Hidden="true" />
+      <Field Name="Pollution" Hidden="true" />
+      <Field Name="PollutionTable" Hidden="true" />
+      <Field Name="PolSearch" Hidden="true" />
+      <Field Name="PolSearchType" Hidden="true" />
+      <Field Name="qv" Hidden="true" />
+      <Field Name="ReadExcel_Pollutants" Hidden="true" />
+      <Field Name="ReadExcel_Substances" Hidden="true" />
+      <Field Name="ReadExcelCR" Hidden="true" />
+      <Field Name="ReadExcelNCR" Hidden="true" />
+      <Field Name="ReadPollutionsExcel" Hidden="true" />
+      <Field Name="RfC" Hidden="true" />
+      <Field Name="RoNorm" Hidden="true" />
+      <Field Name="SearchNCR" Hidden="true" />
+      <Field Name="SearchPollutantButton" Hidden="true" />
+      <Field Name="SearchPollutionButton" Hidden="true" />
+      <Field Name="SearchSubstanceButton" Hidden="true" />
+      <Field Name="SearchTextCR" Hidden="true" />
+      <Field Name="SearchTextNCR" Hidden="true" />
+      <Field Name="SearchTypeCR" Hidden="true" />
+      <Field Name="SearchTypeNCR" Hidden="true" />
+      <Field Name="SF" Hidden="true" />
+      <Field Name="ShowAllCR" Hidden="true" />
+      <Field Name="ShowAllNCR" Hidden="true" />
+      <Field Name="ShowAllPollutantsButton" Hidden="true" />
+      <Field Name="ShowAllPollutionsButton" Hidden="true" />
+      <Field Name="ShowAllSubstancesButton" Hidden="true" />
+      <Field Name="Substances" Hidden="true" />
+      <Field Name="SubstanceSearch" Hidden="true" />
+      <Field Name="SubstanceSearchType" Hidden="true" />
+      <Field Name="SubstanceTable" Hidden="true" />
+      <Field Name="T" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel10" Hidden="true" />
+      <Field Name="tableLayoutPanel11" Hidden="true" />
+      <Field Name="tableLayoutPanel12" Hidden="true" />
+      <Field Name="tableLayoutPanel13" Hidden="true" />
+      <Field Name="tableLayoutPanel14" Hidden="true" />
+      <Field Name="tableLayoutPanel15" Hidden="true" />
+      <Field Name="tableLayoutPanel16" Hidden="true" />
+      <Field Name="tableLayoutPanel17" Hidden="true" />
+      <Field Name="tableLayoutPanel18" Hidden="true" />
+      <Field Name="tableLayoutPanel19" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel20" Hidden="true" />
+      <Field Name="tableLayoutPanel21" Hidden="true" />
+      <Field Name="tableLayoutPanel22" Hidden="true" />
+      <Field Name="tableLayoutPanel23" Hidden="true" />
+      <Field Name="tableLayoutPanel24" Hidden="true" />
+      <Field Name="tableLayoutPanel25" Hidden="true" />
+      <Field Name="tableLayoutPanel26" Hidden="true" />
+      <Field Name="tableLayoutPanel27" Hidden="true" />
+      <Field Name="tableLayoutPanel28" Hidden="true" />
+      <Field Name="tableLayoutPanel29" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel30" Hidden="true" />
+      <Field Name="tableLayoutPanel31" Hidden="true" />
+      <Field Name="tableLayoutPanel32" Hidden="true" />
+      <Field Name="tableLayoutPanel33" Hidden="true" />
+      <Field Name="tableLayoutPanel34" Hidden="true" />
+      <Field Name="tableLayoutPanel35" Hidden="true" />
+      <Field Name="tableLayoutPanel36" Hidden="true" />
+      <Field Name="tableLayoutPanel37" Hidden="true" />
+      <Field Name="tableLayoutPanel38" Hidden="true" />
+      <Field Name="tableLayoutPanel39" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+      <Field Name="tableLayoutPanel5" Hidden="true" />
+      <Field Name="tableLayoutPanel6" Hidden="true" />
+      <Field Name="tableLayoutPanel7" Hidden="true" />
+      <Field Name="tableLayoutPanel8" Hidden="true" />
+      <Field Name="tableLayoutPanel9" Hidden="true" />
+      <Field Name="TaxSumText" Hidden="true" />
+      <Field Name="Адреса" Hidden="true" />
+      <Field Name="Вид_діяльності" Hidden="true" />
+      <Field Name="ГДК" Hidden="true" />
+      <Field Name="Касс_небезпеки" Hidden="true" />
+      <Field Name="Кількість" Hidden="true" />
+      <Field Name="Компенсація" Hidden="true" />
+      <Field Name="КР_ID" Hidden="true" />
+      <Field Name="КР_Підприємство" Hidden="true" />
+      <Field Name="КР_Речовина" Hidden="true" />
+      <Field Name="КР_Ризик" Hidden="true" />
+      <Field Name="КР_РівеньРизику" Hidden="true" />
+      <Field Name="КР_Рік" Hidden="true" />
+      <Field Name="Надмірна_маса" Hidden="true" />
+      <Field Name="Назва" Hidden="true" />
+      <Field Name="Назва_речовини" Hidden="true" />
+      <Field Name="Неканцерогенний_ризик" Hidden="true" />
+      <Field Name="Підприємство" Hidden="true" />
+      <Field Name="Підприємство_Неканц_Ризику" Hidden="true" />
+      <Field Name="Податок" Hidden="true" />
+      <Field Name="Речовина" Hidden="true" />
+      <Field Name="Речовина_Неканц_Ризику" Hidden="true" />
+      <Field Name="Рівень_Неканц_Ризику" Hidden="true" />
+      <Field Name="Рік" Hidden="true" />
+      <Field Name="Рік_Неканц_Ризику" Hidden="true" />
+      <Field Name="Розмір_податку" Hidden="true" />
+      <Field Name="Середня_концентрація" Hidden="true" />
+      <Field Name="СЗМК" Hidden="true" />
+      <Field Name="Тип_власності" Hidden="true" />
+      <Field Name="Тип_податку" Hidden="true" />
+      <Field Name="Тип_податку_речовини" Hidden="true" />
+    </Members>
+    <AssociationLine Name="CRRepository" Type="Ecomonitoring.Repositories.CarcinogenicRiskRepository" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="18.5" />
+        <Point X="8.781" Y="18.5" />
+        <Point X="8.781" Y="17.651" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.023" Y="0.421" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="NCRrepository" Type="Ecomonitoring.Repositories.NonCarcinogenicRiskRepository" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="18.062" />
+        <Point X="11.75" Y="18.062" />
+        <Point X="11.75" Y="17.459" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.314" Y="0.259" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pollutantRepository" Type="Ecomonitoring.Repositories.PollutantRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="18.875" />
+        <Point X="6.552" Y="18.875" />
+        <Point X="6.552" Y="17.844" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.433" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="substanceRepository" Type="Ecomonitoring.Repositories.SubstanceRepository" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="19.187" />
+        <Point X="4.375" Y="19.187" />
+        <Point X="4.375" Y="17.844" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.088" Y="0.366" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pollutionReportRepository" Type="Ecomonitoring.Repositories.PollutionReportRepository" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="19.562" />
+        <Point X="1.875" Y="19.562" />
+        <Point X="1.875" Y="17.844" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.344" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Excel_Reader" Type="Ecomonitoring.Excel_Reader">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.296" Y="0.107" Height="0.182" Width="1.049" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>//+9XCg9VS3F47mdYYWhc2xK2jhDNPwQyvi4Fav/I/U=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CRRepository" />
+      <Field Name="NCRrepository" />
+      <Field Name="pollutantRepository" />
+      <Field Name="substanceRepository" />
+      <Field Name="pollutionReportRepository" />
+      <Property Name="Excel_Reader" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.Excel_Reader">
+    <Position X="12" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excel_Reader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ecomonitoring.Repositories.PollutantRepository">
+    <Position X="5.75" Y="14.75" Width="1.75" />
+    <AssociationLine Name="Pollutants" Type="Ecomonitoring.Pollutant">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.599" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAABgAQQAAEAAAAAAAAACACQAAIAAAAAA=</HashCode>
+      <FileName>Repositories\PollutantRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Pollutants" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.Repositories.PollutionReportRepository">
+    <Position X="0.75" Y="14.75" Width="2.25" />
+    <AssociationLine Name="PollutionReports" Type="Ecomonitoring.Pollution_Report">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.075" Y="0.338" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAAAAAAAgAAAQAAAEAAAAAAABAgAAAgAAQAAA=</HashCode>
+      <FileName>Repositories\PollutionReportRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PollutionReports" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.Repositories.SubstanceRepository">
+    <Position X="3.5" Y="14.75" Width="1.75" />
+    <AssociationLine Name="Substances" Type="Ecomonitoring.Substance">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.321" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAEAgAAAgAAAAAgAAAAABAAEAAAAEAgCAAAAA=</HashCode>
+      <FileName>Repositories\SubstanceRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Substances" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.Repositories.NonCarcinogenicRiskRepository">
+    <Position X="10.5" Y="14.75" Width="2.5" />
+    <AssociationLine Name="NonCarcinogenicRisks" Type="Ecomonitoring.RisksCalasses.NonCarcinogenicRisk.NonCarcinogenicRisk">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.579" Y="1.49" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAAABAABAAAABgAAAAgAAAAAAAAAAAAAAAABCAAAAA=</HashCode>
+      <FileName>Repositories\NonCarcinogenicRiskRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="NonCarcinogenicRisks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.Repositories.CarcinogenicRiskRepository">
+    <Position X="7.75" Y="14.75" Width="2.25" />
+    <AssociationLine Name="CarcinogenicRisks" Type="Ecomonitoring.RisksCalasses.CarcinogenicRisk.CarcinogenicRisk">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.075" Y="0.234" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgAgBAAAAAAAAIAAAAAAAwAAABAIAAAA=</HashCode>
+      <FileName>Repositories\CarcinogenicRiskRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CarcinogenicRisks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.Pollutant">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAgAAAAAAAAAAgAAAAAAAAIEABAAQAAAAAAAAAA=</HashCode>
+      <FileName>PollutantsClasses\Pollutant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ecomonitoring.Substance">
+    <Position X="3.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQAAAAAAAIAAAAAACACAAQEAAAAAIABAAAgCAA=</HashCode>
+      <FileName>SubstancesClasses\Substance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ecomonitoring.Pollution_Report">
+    <Position X="1.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAgAAAAECASQAAAgAAAAAAAAUAgA=</HashCode>
+      <FileName>PollutionClasses\Pollution_Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ecomonitoring.RisksCalasses.CarcinogenicRisk.CarcinogenicRisk">
+    <Position X="7.75" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAIAAAAAAIIAIAAAAAACACAAACIABAAAgAAAAA=</HashCode>
+      <FileName>RisksCalasses\CarcinogenicRisk\CarcinogenicRisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ecomonitoring.RisksCalasses.NonCarcinogenicRisk.NonCarcinogenicRisk">
+    <Position X="10" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAA=</HashCode>
+      <FileName>RisksCalasses\NonCarcinogenicRisk\NonCarcinogenicRisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ecomonitoring.AddPollutant">
+    <Position X="19.5" Y="10.5" Width="1.5" />
+    <Members>
+      <Field Name="AddButton" Hidden="true" />
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="CityPop" Hidden="true" />
+      <Field Name="CityType" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="NewPollutantActivity" Hidden="true" />
+      <Field Name="NewPollutantAddress" Hidden="true" />
+      <Field Name="NewPollutantName" Hidden="true" />
+      <Field Name="NewPollutantOwnership" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAABAAQACAAABCAAgCQQACCAAAAACAAgEIADaEAACA=</HashCode>
+      <FileName>PollutantsClasses\AddPollutant.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.SubstancesClasses.AddSubstance">
+    <Position X="19.5" Y="14" Width="1.5" />
+    <Members>
+      <Field Name="AddButton" Hidden="true" />
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DangerClass" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="NewSubstanceCancerogenic" Hidden="true" />
+      <Field Name="NewSubstanceName" Hidden="true" />
+      <Field Name="NewSubstanceQv" Hidden="true" />
+      <Field Name="NewSubstanceRfC" Hidden="true" />
+      <Field Name="NewSubstanceRoNorm" Hidden="true" />
+      <Field Name="NewSubstanceSF" Hidden="true" />
+      <Field Name="NewSubstanceTaxAmmount" Hidden="true" />
+      <Field Name="NewSubstanceTaxType" Hidden="true" />
+      <Field Name="NewSubstanceTLK" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel10" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+      <Field Name="tableLayoutPanel5" Hidden="true" />
+      <Field Name="tableLayoutPanel6" Hidden="true" />
+      <Field Name="tableLayoutPanel7" Hidden="true" />
+      <Field Name="tableLayoutPanel8" Hidden="true" />
+      <Field Name="tableLayoutPanel9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>MBAAAAAQACAAFDAAAjGAAAACgAQEQCEAyGIgBYQAACE=</HashCode>
+      <FileName>SubstancesClasses\AddSubstance.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.PollutionClasses.AddPollution">
+    <Position X="22" Y="10.5" Width="1.5" />
+    <Members>
+      <Field Name="AddButton" Hidden="true" />
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="NewPollutantName" Hidden="true" />
+      <Field Name="NewPollution" Hidden="true" />
+      <Field Name="NewPollutionAmmount" Hidden="true" />
+      <Field Name="NewPollutionCa" Hidden="true" />
+      <Field Name="NewPollutionRoi" Hidden="true" />
+      <Field Name="NewPollutionT" Hidden="true" />
+      <Field Name="NewSubstanceName" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="PollutionYear" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+      <Field Name="tableLayoutPanel5" Hidden="true" />
+    </Members>
+    <AssociationLine Name="mainForm" Type="Ecomonitoring.Form1" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.75" Y="12.31" />
+        <Point X="22.75" Y="13.063" />
+        <Point X="18" Y="13.063" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAABIAQACAAABAAIiCAAAICgAAAACAAmEAABYAAgCA=</HashCode>
+      <FileName>PollutionClasses\AddPollution.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.RisksCalasses.CarcinogenicRisk.AddCR">
+    <Position X="22" Y="14" Width="1.5" />
+    <Members>
+      <Field Name="AddButton" Hidden="true" />
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="NewCR" Hidden="true" />
+      <Field Name="NewCR_BW" Hidden="true" />
+      <Field Name="NewCR_ED" Hidden="true" />
+      <Field Name="NewCR_EF" Hidden="true" />
+      <Field Name="NewCR_PollutionId" Hidden="true" />
+      <Field Name="NewCR_TimeIn" Hidden="true" />
+      <Field Name="NewCR_TimeOut" Hidden="true" />
+      <Field Name="NewCR_Vin" Hidden="true" />
+      <Field Name="NewCR_Vout" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+      <Field Name="tableLayoutPanel5" Hidden="true" />
+      <Field Name="tableLayoutPanel6" Hidden="true" />
+      <Field Name="tableLayoutPanel7" Hidden="true" />
+    </Members>
+    <AssociationLine Name="mainForm" Type="Ecomonitoring.Form1" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.812" Y="14" />
+        <Point X="22.812" Y="13.75" />
+        <Point X="18" Y="13.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IBAAAACQACAAgBAAAgGACAACgAAMACAAiGAADYAgACA=</HashCode>
+      <FileName>RisksCalasses\CarcinogenicRisk\AddCR.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.RisksCalasses.NonCarcinogenicRisk.AddNCR">
+    <Position X="24" Y="12.5" Width="1.75" />
+    <Members>
+      <Field Name="AddButton" Hidden="true" />
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="NewNCR_PollutionId" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+    </Members>
+    <AssociationLine Name="mainForm" Type="Ecomonitoring.Form1" FixedFromPoint="true">
+      <Path>
+        <Point X="24" Y="13.375" />
+        <Point X="18" Y="13.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQACAAABAAAgCAAAACAAAAACAAAAAAB4AAACA=</HashCode>
+      <FileName>RisksCalasses\NonCarcinogenicRisk\AddNCR.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.ChangePollutant">
+    <Position X="19.5" Y="16.5" Width="1.5" />
+    <Members>
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="ChangeButton" Hidden="true" />
+      <Field Name="CityPop" Hidden="true" />
+      <Field Name="CityType" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="PollutantActivity" Hidden="true" />
+      <Field Name="PollutantAddress" Hidden="true" />
+      <Field Name="PollutantName" Hidden="true" />
+      <Field Name="PollutantOwnership" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAAAARACAAABAAAgGAIAACAAAAAAAAgEAgDQFIgCA=</HashCode>
+      <FileName>PollutantsClasses\ChangePollutant.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.SubstancesClasses.ChangeSubstance">
+    <Position X="21.75" Y="16.5" Width="1.5" />
+    <Members>
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="ChangeButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DangerClass" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="SubstanceCancerogenic" Hidden="true" />
+      <Field Name="SubstanceName" Hidden="true" />
+      <Field Name="SubstanceQv" Hidden="true" />
+      <Field Name="SubstanceRfC" Hidden="true" />
+      <Field Name="SubstanceRoNorm" Hidden="true" />
+      <Field Name="SubstanceSF" Hidden="true" />
+      <Field Name="SubstanceTaxAmmount" Hidden="true" />
+      <Field Name="SubstanceTaxType" Hidden="true" />
+      <Field Name="SubstanceTLK" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel10" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+      <Field Name="tableLayoutPanel5" Hidden="true" />
+      <Field Name="tableLayoutPanel6" Hidden="true" />
+      <Field Name="tableLayoutPanel7" Hidden="true" />
+      <Field Name="tableLayoutPanel8" Hidden="true" />
+      <Field Name="tableLayoutPanel9" Hidden="true" />
+    </Members>
+    <AssociationLine Name="mainForm" Type="Ecomonitoring.Form1" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.438" Y="18.954" />
+        <Point X="22.438" Y="19.187" />
+        <Point X="18" Y="19.187" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>MBAAAQQRAGAAABAAAhHAIAAKgAAAAAAAwGAiDRBCgCA=</HashCode>
+      <FileName>SubstancesClasses\ChangeSubstance.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.PollutionClasses.ChangePollution">
+    <Position X="24" Y="18.75" Width="1.5" />
+    <Members>
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="ChangeButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="NewPollution" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="PollutantName" Hidden="true" />
+      <Field Name="PollutionAmmount" Hidden="true" />
+      <Field Name="PollutionCa" Hidden="true" />
+      <Field Name="PollutionRoi" Hidden="true" />
+      <Field Name="PollutionT" Hidden="true" />
+      <Field Name="PollutionYear" Hidden="true" />
+      <Field Name="SubstanceName" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+      <Field Name="tableLayoutPanel5" Hidden="true" />
+    </Members>
+    <AssociationLine Name="mainForm" Type="Ecomonitoring.Form1" FixedFromPoint="true">
+      <Path>
+        <Point X="24" Y="19.563" />
+        <Point X="18" Y="19.563" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAIARAGAAABAACgCAIAACgAAAAAAAkEAABQBQgCA=</HashCode>
+      <FileName>PollutionClasses\ChangePollution.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.RisksCalasses.CarcinogenicRisk.ChangeCR">
+    <Position X="19.5" Y="20.25" Width="1.5" />
+    <Members>
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="ChangeButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="CR_BW" Hidden="true" />
+      <Field Name="CR_ED" Hidden="true" />
+      <Field Name="CR_EF" Hidden="true" />
+      <Field Name="CR_PollutionId" Hidden="true" />
+      <Field Name="CR_TimeIn" Hidden="true" />
+      <Field Name="CR_TimeOut" Hidden="true" />
+      <Field Name="CR_Vin" Hidden="true" />
+      <Field Name="CR_Vout" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="NewCR" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+      <Field Name="tableLayoutPanel5" Hidden="true" />
+      <Field Name="tableLayoutPanel6" Hidden="true" />
+      <Field Name="tableLayoutPanel7" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAABQARACAAABAAEgGAAAACgAEEAAAAgGAABRRAwCA=</HashCode>
+      <FileName>RisksCalasses\CarcinogenicRisk\ChangeCR.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ecomonitoring.RisksCalasses.NonCarcinogenicRisk.ChangeNCR">
+    <Position X="21.75" Y="20.25" Width="1.5" />
+    <Members>
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="ChangeButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="NCR_PollutionId" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="panel6" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+    </Members>
+    <AssociationLine Name="mainForm" Type="Ecomonitoring.Form1" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.5" Y="20.25" />
+        <Point X="22.5" Y="20.063" />
+        <Point X="18" Y="20.063" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAARACAAABAAAgCAAAACAAAAAAAAAAAAFQBAACA=</HashCode>
+      <FileName>RisksCalasses\NonCarcinogenicRisk\ChangeNCR.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
