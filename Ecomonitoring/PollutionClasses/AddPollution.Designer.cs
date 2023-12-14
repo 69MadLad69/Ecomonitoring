@@ -39,32 +39,32 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.NewPollution = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.NewPollutionT = new System.Windows.Forms.TextBox();
+            this.PollutionYear = new System.Windows.Forms.ComboBox();
+            this.NewPollutionRoi = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.NewSubstanceName = new System.Windows.Forms.ComboBox();
             this.NewPollutantName = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.PollutionYear = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.NewPollutionCa = new System.Windows.Forms.TextBox();
             this.NewPollutionAmmount = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.NewPollutionRoi = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
-            this.NewPollutionT = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.NewPollution.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -212,6 +212,87 @@
             this.NewPollution.Size = new System.Drawing.Size(995, 531);
             this.NewPollution.TabIndex = 8;
             // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 2;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Controls.Add(this.NewPollutionT, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.PollutionYear, 0, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 374);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(989, 47);
+            this.tableLayoutPanel5.TabIndex = 19;
+            // 
+            // NewPollutionT
+            // 
+            this.NewPollutionT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(54)))));
+            this.NewPollutionT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.NewPollutionT.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NewPollutionT.Font = new System.Drawing.Font("Century Schoolbook", 16F);
+            this.NewPollutionT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
+            this.NewPollutionT.Location = new System.Drawing.Point(497, 3);
+            this.NewPollutionT.Name = "NewPollutionT";
+            this.NewPollutionT.Size = new System.Drawing.Size(489, 40);
+            this.NewPollutionT.TabIndex = 12;
+            this.NewPollutionT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PollutionYear
+            // 
+            this.PollutionYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(54)))));
+            this.PollutionYear.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PollutionYear.Font = new System.Drawing.Font("Century Schoolbook", 18F);
+            this.PollutionYear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
+            this.PollutionYear.FormattingEnabled = true;
+            this.PollutionYear.Items.AddRange(new object[] {
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023"});
+            this.PollutionYear.Location = new System.Drawing.Point(3, 3);
+            this.PollutionYear.Name = "PollutionYear";
+            this.PollutionYear.Size = new System.Drawing.Size(488, 43);
+            this.PollutionYear.TabIndex = 11;
+            // 
+            // NewPollutionRoi
+            // 
+            this.NewPollutionRoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(54)))));
+            this.NewPollutionRoi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.NewPollutionRoi.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NewPollutionRoi.Font = new System.Drawing.Font("Century Schoolbook", 20F);
+            this.NewPollutionRoi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
+            this.NewPollutionRoi.Location = new System.Drawing.Point(3, 480);
+            this.NewPollutionRoi.Name = "NewPollutionRoi";
+            this.NewPollutionRoi.Size = new System.Drawing.Size(989, 48);
+            this.NewPollutionRoi.TabIndex = 17;
+            this.NewPollutionRoi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label7
+            // 
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Font = new System.Drawing.Font("Century Schoolbook", 22F);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
+            this.label7.Location = new System.Drawing.Point(3, 424);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(989, 53);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Середнє значення масової концентрації (мг/м3)";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // NewSubstanceName
             // 
             this.NewSubstanceName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(54)))));
@@ -259,45 +340,6 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Назва речовини";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Font = new System.Drawing.Font("Century Schoolbook", 22F);
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
-            this.label6.Location = new System.Drawing.Point(3, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(488, 47);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Рік";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // PollutionYear
-            // 
-            this.PollutionYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(54)))));
-            this.PollutionYear.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PollutionYear.Font = new System.Drawing.Font("Century Schoolbook", 18F);
-            this.PollutionYear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
-            this.PollutionYear.FormattingEnabled = true;
-            this.PollutionYear.Items.AddRange(new object[] {
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020",
-            "2021",
-            "2022",
-            "2023"});
-            this.PollutionYear.Location = new System.Drawing.Point(3, 3);
-            this.PollutionYear.Name = "PollutionYear";
-            this.PollutionYear.Size = new System.Drawing.Size(488, 43);
-            this.PollutionYear.TabIndex = 11;
             // 
             // tableLayoutPanel1
             // 
@@ -381,31 +423,6 @@
             this.NewPollutionAmmount.TabIndex = 8;
             this.NewPollutionAmmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label7
-            // 
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Font = new System.Drawing.Font("Century Schoolbook", 22F);
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
-            this.label7.Location = new System.Drawing.Point(3, 424);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(989, 53);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Середнє значення масової концентрації (мг/м3)";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // NewPollutionRoi
-            // 
-            this.NewPollutionRoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(54)))));
-            this.NewPollutionRoi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.NewPollutionRoi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NewPollutionRoi.Font = new System.Drawing.Font("Century Schoolbook", 20F);
-            this.NewPollutionRoi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
-            this.NewPollutionRoi.Location = new System.Drawing.Point(3, 480);
-            this.NewPollutionRoi.Name = "NewPollutionRoi";
-            this.NewPollutionRoi.Size = new System.Drawing.Size(989, 48);
-            this.NewPollutionRoi.TabIndex = 17;
-            this.NewPollutionRoi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 2;
@@ -422,46 +439,29 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(989, 47);
             this.tableLayoutPanel4.TabIndex = 18;
             // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Controls.Add(this.NewPollutionT, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.PollutionYear, 0, 0);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 374);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(989, 47);
-            this.tableLayoutPanel5.TabIndex = 19;
-            // 
             // label8
             // 
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Font = new System.Drawing.Font("Century Schoolbook", 16F);
+            this.label8.Font = new System.Drawing.Font("Century Schoolbook", 14F);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
             this.label8.Location = new System.Drawing.Point(497, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(489, 47);
             this.label8.TabIndex = 6;
-            this.label8.Text = "Час в режимі наднормового викиду";
+            this.label8.Text = "Час в режимі наднормового викиду (год)";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // NewPollutionT
+            // label6
             // 
-            this.NewPollutionT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(44)))), ((int)(((byte)(54)))));
-            this.NewPollutionT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.NewPollutionT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NewPollutionT.Font = new System.Drawing.Font("Century Schoolbook", 16F);
-            this.NewPollutionT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
-            this.NewPollutionT.Location = new System.Drawing.Point(497, 3);
-            this.NewPollutionT.Name = "NewPollutionT";
-            this.NewPollutionT.Size = new System.Drawing.Size(489, 40);
-            this.NewPollutionT.TabIndex = 12;
-            this.NewPollutionT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("Century Schoolbook", 22F);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
+            this.label6.Location = new System.Drawing.Point(3, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(488, 47);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Рік";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AddPollution
             // 
@@ -483,12 +483,12 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.NewPollution.ResumeLayout(false);
             this.NewPollution.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -421,13 +421,13 @@
             // label8
             // 
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Font = new System.Drawing.Font("Century Schoolbook", 16F);
+            this.label8.Font = new System.Drawing.Font("Century Schoolbook", 14F);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(179)))), ((int)(((byte)(205)))));
             this.label8.Location = new System.Drawing.Point(502, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(493, 49);
             this.label8.TabIndex = 6;
-            this.label8.Text = "Час в режимі наднормового викиду";
+            this.label8.Text = "Час в режимі наднормового викиду (год)";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6

@@ -20,7 +20,7 @@ namespace Ecomonitoring
 {
     public partial class Form1 : Form
     {
-        public static string connectionString = "Server = *******; Database = ecomonitoring; User Id = root; Password = *******;";
+        public static string connectionString = "Server = 127.0.0.1; Database = ecomonitoring; User Id = root; Password = bober2467;";
         public PollutantRepository pollutantRepository = new PollutantRepository(connectionString);
         public SubstanceRepository substanceRepository = new SubstanceRepository(connectionString);
         public PollutionReportRepository pollutionReportRepository = new PollutionReportRepository(connectionString);
