@@ -132,12 +132,6 @@
     <Compile Include="PollutantsClasses\ChangePollutant.Designer.cs">
       <DependentUpon>ChangePollutant.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomInputBoxcs.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomInputBoxcs.Designer.cs">
-      <DependentUpon>CustomInputBoxcs.cs</DependentUpon>
-    </Compile>
     <Compile Include="Excel_Reader.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -210,9 +204,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PollutantsClasses\ChangePollutant.resx">
       <DependentUpon>ChangePollutant.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomInputBoxcs.resx">
-      <DependentUpon>CustomInputBoxcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
